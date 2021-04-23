@@ -11,7 +11,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText,
+  NavbarText
 } from 'reactstrap';
 
 const Navigationbar = (props) => {
@@ -21,18 +21,20 @@ const Navigationbar = (props) => {
 
   return (
     <>
-      <Navbar className='navbar-container bg-sucess' color='light' light expand='md'>
-        <NavbarBrand href='/'>Food-platform</NavbarBrand>
+      <Navbar
+        className='navbar-container bg-sucess'
+        color='light'
+        light
+        expand='md'>
+        <NavbarBrand href='/'>领养朋友Go</NavbarBrand>
         <NavbarToggler onClick={toggle} />
         <Collapse isOpen={isOpen} navbar>
           <Nav className='mr-auto' navbar>
             <NavItem>
-              <NavLink href='/components/'>Components</NavLink>
+              <NavLink href='/about'>About</NavLink>
             </NavItem>
             <NavItem>
-              <NavLink href='https://github.com/reactstrap/reactstrap'>
-                GitHub
-              </NavLink>
+              <NavLink href='/contact'>contact</NavLink>
             </NavItem>
             <UncontrolledDropdown nav inNavbar>
               <DropdownToggle nav caret>
