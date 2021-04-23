@@ -1,0 +1,70 @@
+*{
+    /* background-color: gray; */
+
+}
+
+
+
+
+/* this is Navbar */
+.navbar-header{
+
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-container{
+    background-color: black;
+}
+/* this is Heropanel */
+.carousel-item{
+    background-color: rgb(92, 86, 86);
+    border: 1px solid red;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel-item img {
+    border: 1px solid red;
+    display: block;
+    height: 300px;
+    width: 80%;
+    min-width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+
+
+.heropanel-header{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container{
+    color:black
+}
+
+/* this is Container */
+.card-header {
+ border: 1px solid red;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-container{
+    border: 1px solid red;
+    width: 300px;
+    height: 360px;
+}
+
+/* this is Footer */
+.footer-header{
+    text-align: center;
+    height: 70px;
+    padding-bottom: 5px;
+     font-size: 15px;
+    padding-top: 20px;
+    background-color: black;
+    color: wheat;
+}
