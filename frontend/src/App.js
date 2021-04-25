@@ -49,6 +49,13 @@ const data = [
     age: 17,
     img: '/images/zisheng.jpg',
     text: '头脑凹一粒洞，戴不到耳机，智商跟头的洞一样少了一点'
+  },
+  {
+    id: 7,
+    name: '陈子浩',
+    age: 17,
+    img: '/images/zihao.jpg',
+    text: '翻白眼到印度'
   }
 ];
 
